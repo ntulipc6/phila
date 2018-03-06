@@ -22,7 +22,7 @@ public class ShortestPath {
 
     public static final String START = "S";
     public static final String END = "E";
-    public static finalc String WALL = "W";
+    public static final String WALL = "W";
 
     String[][] minDistance(String grid[][]) {
         QItem source = new QItem(0, 0, 0);
