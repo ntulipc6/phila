@@ -20,9 +20,9 @@ public class ShortestPath {
     static int M = 0;
     static int N = 0;
 
-    final static String START = "S";
-    final static String END = "E";
-    final static String WALL = "W";
+    public static final String START = "S";
+    public static final String END = "E";
+    public static finalc String WALL = "W";
 
     String[][] minDistance(String grid[][]) {
         QItem source = new QItem(0, 0, 0);
